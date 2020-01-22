@@ -24,6 +24,12 @@ class WelcomeController {
 
 	@GetMapping("/")
 	public String welcome() {
+        //test
+		return "welcome";
+	}
+    @GetMapping("/asdfasfasd")
+	public String welcomxe() {
+        //test
 		return "welcome";
 	}
 
